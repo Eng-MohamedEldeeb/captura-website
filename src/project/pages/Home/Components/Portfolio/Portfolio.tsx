@@ -1,5 +1,5 @@
 import { useState } from "react";
-import * as portfolioImgs from "../../../../../assets/portfolio";
+import * as portfolioImgs from "./../../../../../assets/portfolio/portfolioImgs";
 import ImageModal from "./ImageModal";
 
 const Portfolio = () => {

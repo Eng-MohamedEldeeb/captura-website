@@ -6,6 +6,7 @@
   "homepage": "https://Eng-MohamedEldeeb.github.io/captura-website",
   "scripts": {
     "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

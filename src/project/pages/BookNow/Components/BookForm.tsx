@@ -7,8 +7,8 @@ import type {
   IBookNow,
   TClientType,
   TSessionServices,
-} from "../interface/IBookNow.interface";
-import SuccessModal from "./SuccessModal/SuccessModal";
+} from "./../interface/IBookNow.interface.ts";
+import SuccessModal from "./SuccessModal/SuccessModal.tsx";
 
 const BookForm = () => {
   const [showSuccess, setShowSuccess] = useState(false);

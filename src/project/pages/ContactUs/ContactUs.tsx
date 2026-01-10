@@ -1,4 +1,4 @@
-import { avatar } from "../../../assets/contactUs";
+import { avatar } from "./../../../assets/contactUs/avatarImgs";
 import ContactForm from "./Components/ContactForm";
 
 const ContactUs = () => {

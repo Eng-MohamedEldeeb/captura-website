@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ImageModal from "./Components/ImageModal";
-import * as galleryImgs from "./../../../assets/gallery/index";
+import * as galleryImgs from "./../../../assets/gallery/galleryImgs";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);

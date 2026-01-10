@@ -1,4 +1,5 @@
-import { BookForm, Header } from "./Components";
+import BookForm from "./Components/BookForm";
+import Header from "./Components/Header";
 
 const BookNow = () => {
   return (

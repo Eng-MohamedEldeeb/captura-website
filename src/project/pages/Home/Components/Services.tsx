@@ -1,4 +1,8 @@
-import { fashion, products, realEstate } from "../../../../assets/home";
+import {
+  fashion,
+  products,
+  realEstate,
+} from "./../../../../assets/home/homeImgs";
 
 const Services = () => {
   const services: { title: string; desc: string; img: string }[] = [
