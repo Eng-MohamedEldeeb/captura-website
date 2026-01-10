@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Eng-MohamedEldeeb.github.io/captura-website",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
