@@ -22,12 +22,9 @@ const Gallery = () => {
     { id: 14, src: galleryImgs.img14 },
   ];
 
-  console.log(imgs);
-
   return (
     <section className="py-24 bg-neutral-900">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
         <div className="mb-14 text-center">
           <h2 className="text-amber-600 text-4xl md:text-5xl font-bold mb-4">
             Gallery
@@ -37,7 +34,6 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Grid */}
         <div
           className="
           grid gap-14
@@ -67,7 +63,6 @@ const Gallery = () => {
                 "
               />
 
-              {/* Overlay */}
               <div
                 className="
                 absolute inset-0
@@ -85,7 +80,6 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Image Modal */}
       {selectedImage && (
         <ImageModal
           image={selectedImage}
